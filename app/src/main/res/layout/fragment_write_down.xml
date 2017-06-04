@@ -13,7 +13,7 @@
         android:layout_gravity="top"
         android:background="@color/colorAccentLight"
         android:gravity="center"
-        android:hint="Write answer here"
+        android:hint="@string/write_answer_here"
         android:padding="25dp" />
 
 

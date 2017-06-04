@@ -27,7 +27,7 @@
             android:gravity="center"
             android:padding="10dp"
             android:text="score"
-            android:textSize="35dp" />
+            android:textSize="35sp" />
 
 
         <RelativeLayout
@@ -46,7 +46,7 @@
                 android:background="@color/colorAccentLight"
                 android:gravity="center"
                 android:padding="10dp"
-                android:text="You answered correctly on :"
+                android:text="@string/you_answered_correctly_on"
                 android:textSize="18sp" />
 
             <TextView
@@ -69,7 +69,7 @@
             android:background="@color/colorAccentLight"
             android:gravity="center"
             android:padding="10dp"
-            android:text="of asked questions."
+            android:text="@string/of_asked_questions"
             android:textSize="18sp" />
     </RelativeLayout>
 </FrameLayout>

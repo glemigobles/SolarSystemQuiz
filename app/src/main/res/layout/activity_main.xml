@@ -20,7 +20,7 @@
         android:background="@color/colorPrimaryGrey"
         android:gravity="center"
         android:padding="10dp"
-        android:text="Welcome in Solar System Quiz!"
+        android:text="@string/welcome_in_solar_system_quiz"
         android:textColor="#EDAA19"
         android:textSize="18sp" />
 
@@ -32,7 +32,7 @@
         android:gravity="center"
         android:padding="10dp"
 
-        android:text="Challenge Your knowledge about Solar System"
+        android:text="@string/challenge_your_knowledge_about_solar_system"
         android:textColor="#ffff"
         android:textSize="14sp" />
 
@@ -50,7 +50,7 @@
         android:layout_gravity="center"
         android:layout_marginBottom="10dp"
         android:gravity="center"
-        android:hint="Put Your name here"
+        android:hint="@string/put_your_name_here"
         android:textColor="@color/colorAccent"
         android:textColorHint="#FFEFCC"
         android:textSize="18sp" />
@@ -71,9 +71,9 @@
             android:background="#1D961D"
             android:gravity="center"
             android:shadowColor="@color/colorAccentLight"
-            android:text="Start"
+            android:text="@string/start"
             android:textColor="@color/colorAccentLight"
-            android:textSize="18dp"
+            android:textSize="18sp"
 
             />
 
