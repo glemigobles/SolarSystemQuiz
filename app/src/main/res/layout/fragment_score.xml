@@ -1,0 +1,75 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="com.kubaczeremosz.solarsystemquiz.Score">
+
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/colorAccentLight">
+
+        <TextView
+            android:id="@+id/congrats"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="Congrats"
+            android:textSize="18sp" />
+
+        <TextView
+            android:id="@+id/scorePercent"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/congrats"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="score"
+            android:textSize="35dp" />
+
+
+        <RelativeLayout
+            android:id="@+id/layout2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/scorePercent"
+            android:layout_centerInParent="true"
+
+            >
+
+            <TextView
+                android:id="@+id/text1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@color/colorAccentLight"
+                android:gravity="center"
+                android:padding="10dp"
+                android:text="You answered correctly on :"
+                android:textSize="18sp" />
+
+            <TextView
+                android:id="@+id/score"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@id/text1"
+                android:background="@color/colorAccentLight"
+                android:gravity="left"
+                android:padding="10dp"
+                android:text="score"
+                android:textSize="18sp" />
+        </RelativeLayout>
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/layout2"
+            android:background="@color/colorAccentLight"
+            android:gravity="center"
+            android:padding="10dp"
+            android:text="of asked questions."
+            android:textSize="18sp" />
+    </RelativeLayout>
+</FrameLayout>
