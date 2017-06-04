@@ -12,7 +12,7 @@ third- write down answer type fragment,
 
 after that, if there are more questions it again loading new cycle of fragments ( due to that cycle order, questions and answers must be added in this certain order in VariableContainer class). 
 
-If questions ends class Quiz will load score fragment wich displays player final score.
+If questions ends, class Quiz will load score fragment wich displays player final score.
 
 I understand that code could be a bit hard to read, because of a lot dependecies betwenn classes and fragments, but it was nesessary to archive program based on fragments without multiplyaing layout activities with every each question. 
 
